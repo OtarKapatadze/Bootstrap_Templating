@@ -1,1 +1,1 @@
-Simple EJS_Templating without Boilerplate
+Simple EJS_Templating without MATE_Boilerplate
