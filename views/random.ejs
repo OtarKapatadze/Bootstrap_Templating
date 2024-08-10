@@ -1,0 +1,12 @@
+<%- include('partials/head')%>
+  <%- include('partials/navbar') %>
+    <h1>Random Number</h1>
+    <p>Number: <%= num %> is <%= num % 2 === 0 ? 'EVEN' : 'ODD' %></p>
+    
+     <% if (num % 2 === 0) { %> 
+     <p> Number : <%= num %> is <span style="color: green;">EVEN</span></p>
+     <% }else { %>
+    <p> Number : <%= num %> is <span style="color: red">ODD</span></p>
+    <% } %>
+      <%- include('partials/footer') %>
+
